@@ -24,6 +24,7 @@ public class Ejercicio1 {
         System.out.println(Watch.getBranch());
         System.out.println(Watch.getSO());
         System.out.println(Watch.getPrice() + " $");
+        System.out.println(Watch.getWeight());
         System.out.println(Watch.getDateZone());
         System.out.println("tipo " +  Watch.getType());
         System.out.println("---------------------");

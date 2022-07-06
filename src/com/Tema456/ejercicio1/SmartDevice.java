@@ -6,9 +6,7 @@ public abstract class SmartDevice {
     private String model;
     private String  branch;
     private double price;
-
     private String SO;
-
     public SmartDevice(){
     }
 
