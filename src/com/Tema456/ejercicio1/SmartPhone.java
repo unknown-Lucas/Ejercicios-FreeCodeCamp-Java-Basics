@@ -5,7 +5,6 @@ public class SmartPhone extends SmartDevice{
     private boolean camera;
     private float screenPixels;
     private String screenResolution;
-
     public SmartPhone() {
     }
 
