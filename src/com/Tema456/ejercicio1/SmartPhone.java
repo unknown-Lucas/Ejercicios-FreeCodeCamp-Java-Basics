@@ -9,10 +9,10 @@ public class SmartPhone extends SmartDevice{
     public SmartPhone() {
     }
 
-    public SmartPhone(String name, String model, String branch, double price, double weight, boolean camera, float screenPixesl, String screenResolution) {
-        super(name, model, branch, price, weight);
+    public SmartPhone(String name, String model, String branch, String SO, double price, double weight, boolean camera, float screenPixels, String screenResolution) {
+        super(name, model, branch, SO, price, weight);
         this.camera = camera;
-        this.screenPixels = screenPixesl;
+        this.screenPixels = screenPixels;
         this.screenResolution = screenResolution;
     }
 

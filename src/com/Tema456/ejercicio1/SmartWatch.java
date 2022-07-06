@@ -9,8 +9,8 @@ public class SmartWatch extends SmartDevice{
     public SmartWatch() {
     }
 
-    public SmartWatch(String name, String model, String branch, double price, double weight, String dateZone, String type) {
-        super(name, model, branch, price, weight);
+    public SmartWatch(String name, String model, String branch, String SO, double price, double weight, String dateZone, String type) {
+        super(name, model, branch, SO, price, weight);
         this.dateZone = dateZone;
         this.type = type;
     }
