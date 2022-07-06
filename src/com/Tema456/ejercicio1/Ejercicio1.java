@@ -9,21 +9,21 @@ public class Ejercicio1 {
         System.out.println(Phone.getName());
         System.out.println(Phone.getModel());
         System.out.println(Phone.getBranch());
-        System.out.println(Phone.getPrice() + " euros");
+        System.out.println(Phone.getPrice() + " $");
         System.out.println(Phone.getWeight() + " g");
         System.out.println(Phone.getCamera() ? "Disponible" : "No disponible");
-        System.out.println(Phone.getScreenPixels() + "px");
+        System.out.println(Phone.getScreenPixels() + " px");
         System.out.println(Phone.getScreenResolution());
         System.out.println("---------------------");
+
         System.out.println("Reloj");
         System.out.println("---------------------");
         System.out.println(Watch.getName());
         System.out.println(Watch.getModel());
         System.out.println(Watch.getBranch());
-        System.out.println(Watch.getPrice() + " euros");
+        System.out.println(Watch.getPrice() + " $");
         System.out.println(Watch.getDateZone());
         System.out.println("tipo " +  Watch.getType());
-
         System.out.println("---------------------");
     }
 }
